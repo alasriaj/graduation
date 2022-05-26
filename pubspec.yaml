@@ -1,0 +1,62 @@
+name: graduation
+description: graduation project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  carousel_pro: ^1.0.0
+  get: ^4.6.1
+  http: ^0.13.4
+  get_storage: ^2.0.3
+  connectivity: ^3.0.6
+  url_launcher:
+  firebase_core: ^1.10.0
+  onesignal_flutter: ^3.2.4
+  share: ^2.0.4
+  cloud_firestore: ^3.1.5
+  flutter_localizations: # Add this line
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  curved_navigation_bar: ^1.0.3
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - asset/
+
+
+  fonts:
+    - family: ElMessiri
+      fonts:
+        - asset: asset/fonts/ElMessiri-Regular.ttf
+        - asset: asset/fonts/ElMessiri-SemiBold.ttf
+          weight: 600
+        - asset: asset/fonts/ElMessiri-Bold.ttf
+          weight: 700
+    - family: Amiri
+      fonts:
+        - asset: asset/fonts/Amiri-Regular.ttf
+        - asset: asset/fonts/ElMessiri-Bold.ttf
+          weight: 700
